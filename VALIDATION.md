@@ -33,4 +33,4 @@ The synthetic three-member editor-theme poll produced direct strengths `[[0,2,2]
 
 ## Boundaries of evidence
 
-Only the clean recorded fixture was exercised on-chain. Ambiguous, conflict, malicious input, authorization and equivalence disagreement cases are covered locally, not claimed as live consensus tests. The read-only verifier checks code equality, exact receipt/call binding and finalized state; it sends no transactions. SDK compatibility may change after this date.
+Only the clean recorded fixture was exercised on-chain. Ambiguous, conflict (where applicable), authorization and equivalence disagreement cases are covered locally, not claimed as live consensus tests. The read-only verifier checks code equality, exact receipt/call binding and finalized state; it sends no transactions. SDK compatibility may change after this date.

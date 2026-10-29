@@ -10,6 +10,8 @@ For accepted votes, `direct[i][j]` counts members strictly preferring i to j. Ti
 
 ## State and API
 
+Text inputs are trimmed at their outer boundaries on ingestion. Source preservation refers to these stored normalized strings; interior text is unchanged.
+
 `COLLECTING → READY → TALLIED | REVIEW`. The owner and poll ID form a namespace. Options, membership and each submitted ballot are immutable. Each listed wallet can submit once; all members must submit before tallying. Any caller may tally a READY poll. A SHA-256 digest binds protocol, owner, ID, options, members, signed ballot text, interpreted votes and final tally/status.
 
 | Method | Arguments | Authorization / result |
