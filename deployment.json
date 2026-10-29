@@ -1,0 +1,19 @@
+{
+  "network": {
+    "chainId": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "address": "0x516C2d91958ea8a62387086A19B3b0d5471ff4F6",
+  "owner": "0xB66a8dfAa5f665019198bee57E6c1D8C6f062617",
+  "sourceSha256": "6e3dd6dce97dd8344922155569586c53f9aaf516e088356063a8f8cfdb8712fa",
+  "verifiedDate": "2026-10-29",
+  "terminalState": "TALLIED",
+  "transactions": {
+    "deploy": "0xa9fb11b077a944ce1ecc4ffa5bed1b2ecdd0b43ddf308d96e91c2eb98fb7d327",
+    "open": "0xf4347fd5c692655f34e1f9b32f313672d89c7d2a8c055bcdbc81d32c51c6b28b",
+    "ballot_0": "0x48c24176232d750a7679f0aab57b3c8586a0cfbbf8ce8b34c3ce5823ff3bca5b",
+    "ballot_1": "0x2e334a5f35e94516171deb74cb3a7203151be873f2ca5249f18f8a6e2f091319",
+    "ballot_2": "0x6551d67bd881d22c9797aa2fdc6dd82eace912b520600344adb0c6c580f0aadb",
+    "tally": "0x5f5f34d80b7af0174b90aac4475e05376b920244be6465afca8ad0073a7ac85b"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "get_poll": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "poll_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "open_poll": {
+      "params": [
+        [
+          "poll_id",
+          "string"
+        ],
+        [
+          "options_json",
+          "string"
+        ],
+        [
+          "members_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "submit_ballot": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "poll_id",
+          "string"
+        ],
+        [
+          "statement",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "tally": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "poll_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
